@@ -1,0 +1,169 @@
+html, body{
+    overflow-x: hidden;
+}
+
+.sin-padding{
+    padding: 0;
+}
+
+.seccion-formulario{
+    height: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.seccion-tabla{
+    height: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.titulo{
+    padding: 1rem 0 2rem;
+}
+
+.titulo h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #000;
+}
+
+label, th, tr{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #000;
+}
+
+.btn{
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 17px;
+    font-family: sans-serif;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #007bff;
+}
+
+.editar{
+    background-color: #4CAF50; 
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer;
+}
+
+.eliminar{
+    background-color: #f44336; 
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer;
+}
+
+/*Media Queries*/
+
+@media(min-width: 1920px){
+    label, th, tr {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .seccion-formulario, .seccion-tabla {
+        width: 95%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .titulo h1 {
+        font-size: 35px;
+    }
+
+    label, th, tr {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .seccion-formulario, .seccion-tabla {
+        width: 95%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .titulo h1 {
+        font-size: 32px;
+    }
+
+    label, th, tr {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767.65px){
+    .seccion-formulario, .seccion-tabla {
+        width: 95%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .titulo h1 {
+        font-size: 32px;
+    }
+
+    label, th, tr {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 480px){
+    .seccion-formulario, .seccion-tabla {
+        width: 95%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .titulo h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    label, th, tr {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+}
